@@ -31,22 +31,28 @@ This software was developed as part of a project with the objective of demonstra
 
 The diffusion equation in two dimensions is an example of the type of problem that can be solved with `nnde`. The PDE is
 
+<!-- 
 \begin{equation}
   \frac {\partial G_i} {\partial p} = \frac {\partial G_i} {\partial \psi_{ti}} \frac {\partial \psi_{ti}} {\partial p} + \sum_{j=1}^m \frac {\partial G_i} {\partial \nabla_{ij} \psi_{ti}} \frac {\partial \nabla_{ij} \psi_{ti}} {\partial p} + \sum_{j=1}^m \frac {\partial G_i} {\partial \nabla_{ij}^2 \psi_{ti}} \frac {\partial \nabla_{ij}^2 \psi_{ti}} {\partial p}
   \label{diffusion2D}
 \end{equation}
+ -->
 
 If all boundaries are fixed at $0$ and with an initial condition of
 
+<!-- 
 \begin{equation}
   \psi(x,y,0) &= \sin(\pi x) \sin(\pi y)
 \end{equation}
+ -->
 
 the analytical solution is
 
+<!-- 
 \begin{equation}
   \psi_a(\mathbf x) = e^{-2\pi^2 D t} \sin(\pi x) \sin(\pi y)\,.
 \end{equation}
+ -->
 
 The `nnde` package was used to create a neural network with a single hidden layer and 10 hidden nodes and trained to solve this problem. The error in the trained solution is shown in \autoref{fig:diff2d_error}
 
