@@ -22,7 +22,7 @@ bibliography: paper.bib
 
 # Summary
 
-Neural networks have been shown to have the ability to solve differential equations [@Yadav:2015, @Chakraverty:2017]. `nnde` is a pure-Python package for the solution of ordinary and partial differential equations of up to second order. We present results of sample runs showing the effectiveness of the software in solving the two-dimensional diffusion problem.
+Neural networks have been shown to have the ability to solve differential equations [@Yadav:2015], [@Chakraverty:2017]. `nnde` is a pure-Python package for the solution of ordinary and partial differential equations of up to second order. We present results of sample runs showing the effectiveness of the software in solving the two-dimensional diffusion problem.
 
 # Statement of need
 
