@@ -10,11 +10,11 @@ authors:
     affiliation: 1
   - name: Bob Weigel
     orcid: 0000-0002-9521-5228
-    affiliation: "2, 1"
+    affiliation: 2
 affiliations:
   - name: George Mason University
     index: 1
-  - name: Associate Professor
+  - name: Associate Professor, George Mason University
     index: 2
 date: 7 February 2021
 bibliography: paper.bib
