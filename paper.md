@@ -10,7 +10,7 @@ authors:
     affiliation: George Mason University
   - name: Bob Weigel
     affiliation: George Mason University
-date: 29 October 2020
+date: 6 February 2021
 bibliography: paper.bib
 
 # Summary
@@ -31,12 +31,8 @@ This software was developed as part of a project with the objective of demonstra
 
 The diffusion equation in two dimensions is an example of the type of problem that can be solved with `nnde`. The PDE is
 
-<!-- 
-\begin{equation}
-  \frac {\partial G_i} {\partial p} = \frac {\partial G_i} {\partial \psi_{ti}} \frac {\partial \psi_{ti}} {\partial p} + \sum_{j=1}^m \frac {\partial G_i} {\partial \nabla_{ij} \psi_{ti}} \frac {\partial \nabla_{ij} \psi_{ti}} {\partial p} + \sum_{j=1}^m \frac {\partial G_i} {\partial \nabla_{ij}^2 \psi_{ti}} \frac {\partial \nabla_{ij}^2 \psi_{ti}} {\partial p}
-  \label{diffusion2D}
-\end{equation}
- -->
+$$\frac {\partial G_i} {\partial p} = \frac {\partial G_i} {\partial \psi_{ti}} \frac {\partial \psi_{ti}} {\partial p} + \sum_{j=1}^m \frac {\partial G_i} {\partial \nabla_{ij} \psi_{ti}} \frac {\partial \nabla_{ij} \psi_{ti}} {\partial p} + \sum_{j=1}^m \frac {\partial G_i} {\partial \nabla_{ij}^2 \psi_{ti}} \frac {\partial \nabla_{ij}^2 \psi_{ti}} {\partial p}
+  \label{diffusion2D}$$
 
 If all boundaries are fixed at $0$ and with an initial condition of
 
