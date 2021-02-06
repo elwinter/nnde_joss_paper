@@ -7,10 +7,15 @@ tags:
 authors:
   - name: Eric Winter
     orcid: 0000-0001-5226-2107
-    affiliation: George Mason University
+    affiliation: 1
   - name: Bob Weigel
     orcid: 0000-0002-9521-5228
-    affiliation: George Mason University
+    affiliation: "2, 1"
+affiliations:
+  - name: George Mason University
+    index: 1
+  - name: Associate Professor
+    index: 2
 date: 7 February 2021
 bibliography: paper.bib
 ---
