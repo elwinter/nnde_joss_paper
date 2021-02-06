@@ -13,6 +13,7 @@ authors:
     affiliation: George Mason University
 date: 7 February 2021
 bibliography: paper.bib
+---
 
 # Summary
 
@@ -43,7 +44,7 @@ the analytical solution is
 
 $$\psi_a(\mathbf x) = e^{-2\pi^2 D t} \sin(\pi x) \sin(\pi y)$$
 
-The `nnde` package was used to create a neural network with a single hidden layer and 10 hidden nodes and trained to solve this problem. The error in the trained solution is shown in \autoref{fig:diff2d_error}.
+The `nnde` package was used to create a neural network with a single hidden layer and 10 hidden nodes and trained to solve this problem. The error in the trained solution for the case of $D=0.1$ is shown in \autoref{fig:diff2d_error}.
 
 ![Computed error in solution of 2-D diffusion problem using `nnde` with 10 nodes.\label{fig:diff2d_error}](figures/diff2d_error_heatmaps.png)
 
