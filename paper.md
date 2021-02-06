@@ -40,7 +40,7 @@ $$\psi(x,y,0) = \sin(\pi x) \sin(\pi y)$$
 
 the analytical solution is
 
-$$\psi_a(\mathbf x) = e^{-2\pi^2 D t} \sin(\pi x) \sin(\pi y)\$$
+$$\psi_a(\mathbf x) = e^{-2\pi^2 D t} \sin(\pi x) \sin(\pi y)$$
 
 The `nnde` package was used to create a neural network with a single hidden layer and 10 hidden nodes and trained to solve this problem. The error in the trained solution is shown in \autoref{fig:diff2d_error}
 
