@@ -40,7 +40,7 @@ The diffusion equation in two dimensions is an example of the type of problem th
 
 If all boundaries are fixed at $0$ and with an initial condition of
 
-$$\psi(x,y,0) &= \sin(\pi x) \sin(\pi y)$$
+$$\psi(x,y,0) = \sin(\pi x) \sin(\pi y)$$
 
 the analytical solution is
 
