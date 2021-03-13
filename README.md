@@ -1,2 +1,3 @@
 # joss_nndepaper
-Paper describing `nnde` for the Journal of Open Source Software
+
+Paper describing the [`nnde` package](https://github.com/elwinter/nnde) for the Journal of Open Source Software
