@@ -36,7 +36,7 @@ The most commonly used methods for solving differential equations are the Finite
 
 As a concrete example of the sort of problem that can be solved using `nnde`, consider the diffusion equation in two dimensions:
 
-$$\frac {\partial \psi} {\partial t} - D \left( \frac {\partial^2 \psi} {\partial x^2} + \frac {\partial^2 \psi} {\partial y^2} \right) = 0\label{diffusion2D}$$
+$$\frac {\partial \psi} {\partial t} - D \left( \frac {\partial^2 \psi} {\partial x^2} + \frac {\partial^2 \psi} {\partial y^2} \right) = 0$$
 
 With all boundaries fixed at $0$ and with an initial condition of
 
